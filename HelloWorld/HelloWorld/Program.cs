@@ -1,6 +1,6 @@
 ﻿
 var x = new Main();
-x.ExternalShowMessage(15);
+x.ExternalShowMessage(new Random().NextDouble() * 100);
 
 public class Main
 {
