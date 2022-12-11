@@ -1,6 +1,6 @@
 ﻿
 var x = new Main();
-Console.WriteLine($"The area of the rectangle is {x.calculaterect1(1, 4)}");
+Console.WriteLine($"The area of the rectangle is {x.CalculateAreaOfRectangle(1, 4)}");
 
 public class Main
 {
@@ -19,7 +19,7 @@ public class Main
     }
 
     public double  CalculateAreaOfRectangle(double length, double width)
-    { return lenth * width; }
+    { return length * width; }
 
 }
 
