@@ -1,19 +1,23 @@
 ﻿
-Main.ShowMessage();
-
+var x = new Main();
+x.ExternalShowMessage(15);
 
 public class Main
 {
-    private string evan = "Evan Green";
-    private string dad = "Dad";
 
-    public static void ShowMessage()
+    private const double Pi = 3.1415;
+    public const string evan = "Evan Green";
+
+    public void ExternalShowMessage(double radis)
     {
-        var main = new Main();
-
-        Console.WriteLine($"Hello {main.evan} and {main.dad}");
+       Console.WriteLine($"Hello {evan} the circle is {Calculate(radis)} feet when the radis is {radis}");
     }
-}
 
+    public double Calculate(double radis) 
+    {
+        return Pi * radis * radis;
+    }
+
+}
 
 
