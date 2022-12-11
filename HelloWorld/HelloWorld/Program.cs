@@ -1,6 +1,6 @@
 ﻿
 var x = new Main();
-Console.WriteLine($"The area of the rectangle is {x.calculaterect1(1, 4)}");
+Console.WriteLine($"The area of the rectangle is {x.CalculateAreaOfRectangle(1, 4)}");
 
 public class Main
 {
