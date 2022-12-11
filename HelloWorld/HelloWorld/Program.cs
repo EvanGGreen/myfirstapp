@@ -1,6 +1,6 @@
 ﻿
 var x = new Main();
-x.ExternalShowMessage(new Random().NextDouble() * 100);
+Console.WriteLine($"The area of the rectangle is {x.calculaterect1(1, 4)}");
 
 public class Main
 {
@@ -17,6 +17,9 @@ public class Main
     {
         return Pi * radis * radis;
     }
+
+    public double  CalculateAreaOfRectangle(double length, double width)
+    { return lenth * width; }
 
 }
 
