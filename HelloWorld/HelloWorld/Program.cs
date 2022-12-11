@@ -19,7 +19,7 @@ public class Main
     }
 
     public double  CalculateAreaOfRectangle(double length, double width)
-    { return lenth * width; }
+    { return length * width; }
 
 }
 
