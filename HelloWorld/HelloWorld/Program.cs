@@ -18,7 +18,7 @@ public class Main
         return Pi * radis * radis;
     }
 
-    public double  calculaterect1(double lenth, double width)
+    public double  CalculateAreaOfRectangle(double length, double width)
     { return lenth * width; }
 
 }
