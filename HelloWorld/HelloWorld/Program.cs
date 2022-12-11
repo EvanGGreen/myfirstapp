@@ -1,6 +1,7 @@
 ﻿
 var x = new Main();
 Console.WriteLine($"The area of the rectangle is {x.CalculateAreaOfRectangle(1, 4)}");
+Console.WriteLine($"The volume of the cube is {x.Calculatevolumeofcube(1, 4, 5)}");
 
 public class Main
 {
@@ -20,6 +21,9 @@ public class Main
 
     public double  CalculateAreaOfRectangle(double length, double width)
     { return length * width; }
+
+    public double Calculatevolumeofcube(double length, double width, double height)
+    { return length * width * height; }
 
 }
 
